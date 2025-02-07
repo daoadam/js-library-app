@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel = "stylesheet" href = "/idek/styles.css">
+    <script src = "/idek/script.js" defer></script>
+    <title>JS Library App</title>
+</head>
+<body>
+<div class = "container">
+    <section class = "form-heading">
+        <h1>Add new book to the heading</h1>
+    </section>
+
+    <section class = "books-heading">
+        <h1>Current books in the library</h1>
+    </section>
+
+    <section class = "form">
+        <button class = "add-book-button">Add new book</button>
+        <div id = "add-book-button" style="display: none">
+            <form id="add-book">
+                <label for="Title">Title: </label>
+                <input type="text" id ="Title" name="Title">
+                <label for="Author">Author: </label>
+                <input type="text" id ="Author" name="Author">
+                <label for="Pages">Pages: </label>
+                <input type="text" id ="Pages" name="Pages">
+                <label for="Read">Read: </label>
+                <input type="text" id ="Read" name="Read">
+            </form>
+            <button type = "submit" class="submit-button">Submit to Library</button>
+            <button type = "reset" class="reset-button">Reset Form</button>
+
+        </div>
+
+    </section>
+
+    <section class = "books">
+    </section>
+</div>
+</body>
+</html> 
